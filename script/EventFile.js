@@ -1,6 +1,6 @@
 // JavaScript Document
 
-const size = 16;
+const size = 20;
 const countmax = 5;
 var CPlayer = 0; // Current Player (0 is O,1 is X)
 var InGame = false;
