@@ -16,5 +16,5 @@ const clear = () => {
 
 setTimeout(() => {
   PvsM();
-  btn[0].classList.add('active');
+  btn[1].classList.add('active');
 }, 200);
