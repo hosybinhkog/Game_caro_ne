@@ -2,11 +2,14 @@ const btn = document.querySelectorAll('.button');
 
 console.log(btn);
 
-btn.forEach((item) => {
-  item.addEventListener('click', () => {
-    clear();
-    item.classList.add('active');
-  });
+btn[0].addEventListener('click', () => {
+  clear();
+  btn[0].classList.add('active');
+});
+
+btn[1].addEventListener('click', () => {
+  clear();
+  btn[0].classList.add('active');
 });
 
 const clear = () => {
