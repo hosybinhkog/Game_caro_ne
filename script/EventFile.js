@@ -77,7 +77,7 @@ function Click(id) {
   }
 }
 
-// Min Max
+// Min Max MAKE EVENT LISTENER
 function maxab(a, b) {
   if (a > b) return a;
   return b;
@@ -101,6 +101,8 @@ function MouseOut(id) {
   var pos = parseInt(id);
   square.item(pos).style.backgroundColor = '#FFF';
 }
+
+////
 
 function WinGame() {
   var result = false;
